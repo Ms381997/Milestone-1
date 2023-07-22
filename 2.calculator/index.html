@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <title>calculater</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- link of style and Css used -->
+        <link rel="stylesheet" href="./style.css">
+       
+        
+    </head>
+    <body>
+        <div id="box">
+            <h2> Calculater</h2> 
+            <!-- input number  -->
+        <input type="text" id="n1" placeholder="Enter First number"/><br/><br>
+        <input type="text" id="n2" placeholder="Enter First number"/><br/>
+        <!-- button of symbol -->
+        <select id="operators">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="/">/</option>
+            <option value="X">X</option>
+        </select>
+        <br><br>
+        <!-- button and result area -->
+        <button onclick="calc();" id="oper">=</button>
+        <input type="text" readonly id="result"/>
+        </div>
+    </body>
+    <!-- link of JS and Js code -->
+    
+    <script src="./script.js"></script>
+</html>
