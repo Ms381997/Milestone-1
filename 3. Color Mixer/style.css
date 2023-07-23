@@ -1,0 +1,41 @@
+.boxShadow{
+   
+  border: 2px solid black;
+  width: 350px;
+  height: 200px;
+  margin-top: 10%;
+  margin-left: 38%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#mixColor{
+  margin-top: 5%;
+  margin-left: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+#resultColorBox{
+  border: 2px solid black;
+  padding: 25px 45px;
+  width: 40px;
+  height: 40px;
+  margin-top: 1%;
+  margin-left: 47%;
+  border-radius: 10px;
+
+}
+
+#resultColorName{
+  margin-left: 48%;
+}
+#alert{
+  width: 50%;
+  text-align: center;
+  border: 2px solid red;
+  font-size: larger;
+  color: red;
+  margin-left: 30%;
+}
